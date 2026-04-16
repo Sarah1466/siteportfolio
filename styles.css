@@ -131,6 +131,7 @@ body {
   box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.08);
   cursor: pointer;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
 }
 
 .project-card:hover {
@@ -140,6 +141,8 @@ body {
 
 .project-card-image {
   overflow: hidden;
+  position: relative;
+}
 }
 
 .project-card-image img {
