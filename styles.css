@@ -176,7 +176,8 @@ body {
   position: relative; /* ← AJOUTE ÇA */
   width: 220px;
   height: 250px;
-  background-color: #ffffff;
+  max-height: 250px;
+  background-color: #48ff00;
   box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.08);
   cursor: pointer;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
